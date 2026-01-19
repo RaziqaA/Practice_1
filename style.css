@@ -1,0 +1,68 @@
+when ever write css i told you use 
+*{
+padding:0;
+margin:0;
+ box-sizing: border-box;
+}
+ 
+
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+ .Container {
+    margin : auto;
+    padding: 30px;
+    border : 5px solid black;
+    color : blue ;
+    background-color: red;
+  
+}
+#Green {
+    color : green;
+}
+
+.para {
+    padding : 30px;
+    justify-content: center;
+    align-content : center;
+    border : 3px solid black;
+}
+
+.flexbox {
+    padding : 30px;
+    margin : 10px;
+    border : 3px solid black;
+    color :  black;
+    background-color: yellow;
+    display : flex;
+    gap : 20px;
+    height : 550px;
+    flex-direction : column-reverse;
+}
+
+.box {
+    height : 60px;
+    width  : 100px;
+    border : 1px solid black;
+    text-align: center;
+    padding : 30px;
+    background-color: violet;
+}
+.ContainerGrid {
+    margin : 10PX;
+    border : 3px solid black;
+    padding : 20px;
+    display : grid;
+    grid-template-columns: 150px 150px 150px;
+    align-items: center;
+   
+}
+.child {
+    border : 1px solid red;
+    padding : 10px;
+     background-color: aqua;
+   
+   
+
+}
